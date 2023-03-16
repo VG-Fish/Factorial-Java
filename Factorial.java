@@ -18,6 +18,7 @@ public class Factorial{
                 sc.close();
                 break;
             } else if(input.signum() == -1){
+                System.out.println("Enter a positive number.");
                 continue;
             }
             System.out.println(factorial(input, cache));
